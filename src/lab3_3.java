@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class lab3_3 {
     public static void main(String[] args) throws IOException {
-        FileReader reader = new FileReader("C://Users//Лена//IdeaProjects//Домашнее задание на 18.02.2022//src//3.txt");
+        FileReader reader = new FileReader("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\file3_3");
         Scanner scan = new Scanner(reader);
         int maxleng = 0;
         String word = null;

@@ -1,4 +1,4 @@
-package lab2_CommandInterpreter.lab2_5and6;
+package lab2_CommandInterpreter;
 
 import java.util.Scanner;
 

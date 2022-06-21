@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class lab1_3 {
     public static void main(String[] args) throws IOException {
         LinkedList<String> linkList = new LinkedList<String>();
-        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\file1_3.txt");
+        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\File\\file1_3.txt");
         //создаем объект FileReader для объекта File
         FileReader fr = new FileReader(file);
         //создаем BufferedReader с существующего FileReader для построчного считывания

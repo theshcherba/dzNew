@@ -6,7 +6,7 @@ import java.util.*;
 
 public class lab1_5and6 {
     public static <in> void  main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\file1_5.txt");
+        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\File\\file1_5.txt");
 
         //создаем объект FileReader для объекта File
         FileReader fr = new FileReader(file);

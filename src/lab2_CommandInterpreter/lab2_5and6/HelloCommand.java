@@ -1,6 +1,9 @@
 package lab2_CommandInterpreter.lab2_5and6;
 
 
+import lab2_CommandInterpreter.lab2_5and6.Command;
+import lab2_CommandInterpreter.lab2_5and6.ConsoleManager;
+
 public class HelloCommand implements Command {
     private ConsoleManager console;
 

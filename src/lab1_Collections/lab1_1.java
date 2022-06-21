@@ -6,7 +6,7 @@ import java.util.Stack;
 public class lab1_1 {
     public static void main(String[] args) throws IOException {
         Stack stack = new Stack(); //создание пустого стека
-        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\file1_3.txt");
+        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\File\\file1_3.txt");
         //создаем объект FileReader для объекта File
         FileReader fr = new FileReader(file);
         //создаем BufferedReader с существующего FileReader для построчного считывания

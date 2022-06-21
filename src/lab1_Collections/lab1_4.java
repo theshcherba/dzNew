@@ -6,7 +6,7 @@ import java.util.TreeSet;
 public class lab1_4 {
     public static void  main(String[] args) throws IOException {
         TreeSet collection = new TreeSet();
-        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\file1_4.txt");
+        File file = new File("C:\\Users\\Лена\\IdeaProjects\\dz\\src\\File\\file1_4.txt");
         //создаем объект FileReader для объекта File
         FileReader fr = new FileReader(file);
         //создаем BufferedReader с существующего FileReader для построчного считывания

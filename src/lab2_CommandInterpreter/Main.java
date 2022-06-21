@@ -1,4 +1,6 @@
-package lab2_CommandInterpreter.lab2_5and6.lab2_4;
+package lab2_CommandInterpreter;
+
+import lab2_CommandInterpreter.lab2_5and6.*;
 
 import java.util.Scanner;
 
@@ -16,7 +18,7 @@ public class Main {
             } catch (ArrayIndexOutOfBoundsException e) {
                 errorExist = true;
             }
-            CommandManager cm = new CommandManager(new HelloCommand(console), new HelloArgCommand(console), new RepeatCommand(console,arg));
+            CommandManager cm = new CommandManager(new HelloCommand(console), new HelloArgCommand(console), new RepeatCommand(console,arg), new HelpCommand(console));
             if (userInput[0].equals("hello") && errorExist ) {
                 cm.setHello();
             } else if (userInput[0].equals("hello") && !errorExist ){
@@ -26,8 +28,11 @@ public class Main {
             if (userInput[0].equals("repeat") && !errorExist) {
 
                 cm.setRepeat(arg);
+            }
+            if (userInput[0].equals("help") && !errorExist) {
 
             }
+                cm.setHelp();
 
         }
 }
